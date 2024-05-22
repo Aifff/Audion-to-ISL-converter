@@ -22,9 +22,22 @@ These instructions will get you download the project and running on your local m
 
 ### Instructions
 
+
+
+To create virtual enviroment: ```python -m venv venv```
+
+To activate the virtual environment: ```venv\Scripts\activate```
+
+To install django: ```pip install django```
+
+To install nltk: ```pip install nltk```
+
+
 1. Open the Downloads folder and then open the terminal.
 2. From the terminal, run the python file using the command "python manage.py runserver ####" (#### optional port number).
 3. From the terminal, it shows localhost address (looks like this "server at http://127.0.0.1:8000/") run on browser.
 4. Sign up and start exploring.
 5. Click on mic button to record speech.
 6. Speech is going to processed and respective animated outputs are shown accordingly and it also support entered text manually.
+
+To exit/kill the server: Ctrl+C
